@@ -13,6 +13,9 @@ function App() {
                     <Route exact path='/'>
                         <Redirect to={routeRules.login}/>
                     </Route>
+                    <Route exact path='/rajyug'>
+                        <Redirect to={routeRules.login}/>
+                    </Route>
                     {
                         routesData.map(route => {
                             if (route.auth){

@@ -1,0 +1,44 @@
+
+.header-wrapper {
+    width: 100%;
+    height: 50px;
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    margin: auto;
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 1px solid var(--main-color);
+    position: relative;
+}
+
+.navigator {
+    position: fixed;
+    top: 3px;
+    font-size: 30px;
+}
+
+.navigator.right{
+    right: 15px;
+}
+
+.navigator.left{
+    left: 15px;
+}
+
+.top-menu {
+    margin-left: 80px;
+}
+
+.top-menu .menu-item{
+    padding: 6px 15px;
+    color: #000;
+    cursor: pointer;
+}
+
+.top-menu .menu-item:hover{
+    text-decoration: none;
+}
+
+.top-menu .selected{
+    border-bottom: 3px solid var(--main-color);
+}

@@ -1,0 +1,7 @@
+@import "./Header.css";
+@import "./login.css";
+
+:root {
+    --main-color: #ff6a00;
+    --bg-color: #d2cccc;
+}
